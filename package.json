@@ -16,6 +16,10 @@
       {
         "command": "pho-visually-distinct-tabs.helloWorld",
         "title": "Hello World"
+      },
+      {
+          "command": "pho-visually-distinct-tabs.changeTabColor",
+          "title": "Change tab color to green"
       }
     ]
   },

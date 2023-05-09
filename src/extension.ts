@@ -20,7 +20,22 @@ export function activate(context: vscode.ExtensionContext) {
 	});
 
 	context.subscriptions.push(disposable);
+
+	let disposable2 = vscode.commands.registerCommand('pho-visually-distinct-tabs.changeTabColor', function () {
+		vscode.window.visibleTextEditors.forEach(function (editor) {
+			if (editor.document.fileName.endsWith('.md')) {
+				let index = vscode.window.visibleTextEditors.indexOf(editor);
+				vscode.window.visibleTextEditors[index].setDecorations(editorDecorationType, { backgroundColor: 'green' });
+			}
+		});
+	});
+	context.subscriptions.push(disposable2);
+
 }
 
 // This method is called when your extension is deactivated
 export function deactivate() {}
+
+const editorDecorationType = vscode.window.createTextEditorDecorationType({
+	backgroundColor: 'green'
+});
