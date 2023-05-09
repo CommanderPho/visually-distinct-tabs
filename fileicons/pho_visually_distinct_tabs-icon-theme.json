@@ -1,0 +1,82 @@
+{
+	// "iconDefinitions": {
+	// 	"_root_folder_dark": {
+	// 		"iconPath": "./images/root-folder-dark.svg"
+	// 	},
+	// 	"_root_folder_open_dark": {
+	// 		"iconPath": "./images/root-folder-open-dark.svg"
+	// 	},
+	// 	"_folder_dark": {
+	// 		"iconPath": "./images/folder-dark.svg"
+	// 	},
+	// 	"_folder_open_dark": {
+	// 		"iconPath": "./images/folder-open-dark.svg"
+	// 	},
+	// 	"_file_dark": {
+	// 		"iconPath": "./images/document-dark.svg"
+	// 	},
+	// 	"_root_folder": {
+	// 		"iconPath": "./images/root-folder-light.svg"
+	// 	},
+	// 	"_root_folder_open": {
+	// 		"iconPath": "./images/root-folder-open-light.svg"
+	// 	},
+	// 	"_folder_light": {
+	// 		"iconPath": "./images/folder-light.svg"
+	// 	},
+	// 	"_folder_open_light": {
+	// 		"iconPath": "./images/folder-open-light.svg"
+	// 	},
+	// 	"_file_light": {
+	// 		"iconPath": "./images/document-light.svg"
+	// 	}
+	// },
+	"iconDefinitions": {
+		"_file_dark": {
+			"iconPath": "./images/document-dark.svg"
+		},
+		"_document_dark_circle_red": {"iconPath": "./images/generated/document-dark-circle-red.svg"},
+		"_document_dark_circle_green": {"iconPath": "./images/generated/document-dark-circle-green.svg"},
+		"_document_dark_triangle_red": {"iconPath": "./images/generated/document-dark-triangle-red.svg"},
+		"_document_dark_triangle_green": {"iconPath": "./images/generated/document-dark-triangle-green.svg"},
+		"_document_dark_square_red": {"iconPath": "./images/generated/document-dark-square-red.svg"},
+		"_document_dark_square_green": {"iconPath": "./images/generated/document-dark-square-green.svg"}
+	},
+	// "folderExpanded": "_folder_open_dark",
+	// "folder": "_folder_dark",
+	"file": "_document_dark_triangle_green", //"_file_dark",
+	// "rootFolderExpanded": "_root_folder_open_dark",
+	// "rootFolder": "_root_folder_dark",
+	"fileExtensions": {
+		// icons by file extension
+	},
+	"fileNames": {
+		// icons by file name
+		"test_circle_red.txt": "_document_dark_circle_red",
+		"test_circle_green.txt": "_document_dark_square_green",
+		// "*_circle_red.txt": "_document_dark_circle_red",
+		// "*_circle_green.txt": "_document_dark_circle_green"
+	},
+	"languageIds": {
+		// icons by language id
+	},
+	// "light": {
+	// 	"folderExpanded": "_folder_open_light",
+	// 	"folder": "_folder_light",
+	// 	"rootFolderExpanded": "_root_folder_open",
+	// 	"rootFolder": "_root_folder",
+	// 	"file": "_file_light",
+	// 	"fileExtensions": {
+	// 		// icons by file extension
+	// 	},
+	// 	"fileNames": {
+	// 		// icons by file name
+	// 	},
+	// 	"languageIds": {
+	// 		// icons by language id
+	// 	}
+	// },
+	// "highContrast": {
+	// 	// overrides for high contrast
+	// }
+}

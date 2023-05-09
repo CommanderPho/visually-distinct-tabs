@@ -12,14 +12,17 @@
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
+  "iconThemes": [
+      {
+        "id": "pho-visually-distinct-tabs",
+        "label": "Pho Visually Distinct Tabs",
+        "path": "./fileicons/pho_visually_distinct_tabs-icon-theme.json"
+      }
+    ],
     "commands": [
       {
         "command": "pho-visually-distinct-tabs.helloWorld",
         "title": "Hello World"
-      },
-      {
-          "command": "pho-visually-distinct-tabs.changeTabColor",
-          "title": "Change tab color to green"
       }
     ]
   },
