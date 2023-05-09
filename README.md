@@ -9,6 +9,11 @@ https://code.visualstudio.com/api/extension-capabilities/theming
 File Icon Theme: A mapping from file type / file name to images. File icons are displayed across the VS Code UI in places such as File Explorer, Quick Open List, and Editor Tab.
 
 
+#### Resources
+https://code.visualstudio.com/api/extension-guides/file-icon-theme
+https://github.com/microsoft/vscode/tree/main/extensions/theme-defaults
+https://github.com/microsoft/vscode/tree/main/extensions/theme-seti
+
 ## 2023-05-09 - Might not be possible with an extension:
 
 From https://code.visualstudio.com/api/extension-capabilities/overview
