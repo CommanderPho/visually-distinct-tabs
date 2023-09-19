@@ -2,7 +2,7 @@
   "name": "pho-visually-distinct-tabs",
   "displayName": "pho-visually-distinct-tabs",
   "description": "Adds customizable indicators to open tabs to make them easier to visually distinguish by adding a small colored shape indicator under the tab's close button.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.77.0"
   },
